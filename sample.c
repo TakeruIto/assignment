@@ -11,7 +11,7 @@ int main(void){
   int a,b,c;
 
   pipe(pp);//子プロセス
-  pipe(qq);//親プロセス
+  pipe(qq);
 
   pid = fork();
   if(pid==0){
