@@ -10,8 +10,8 @@ int main(void){
   int pp[2],qq[2];
   int a,b,c;
 
-  pipe(pp);
-  pipe(qq);
+  pipe(pp);//子プロセス
+  pipe(qq);//親プロセス
 
   pid = fork();
   if(pid==0){
