@@ -10,7 +10,7 @@ int main(void){
   int pp[2],qq[2];
   int a,b,c;
 
-  pipe(pp);//子プロセス
+  pipe(pp);
   pipe(qq);
 
   pid = fork();
