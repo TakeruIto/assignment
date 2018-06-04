@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-  printf("%s\n", "aaa");
+  printf("%s\n", "bbb");
   return 0;
 
 }
